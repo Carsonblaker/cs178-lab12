@@ -38,8 +38,6 @@ def analyze(word):
     pass
 
 # ---- Exercise 2: update your analyze route ----
-
-@app.route('/analyze/<word>')
 def analyze(word):
     # Step 1: character count (already done)
     num_chars = len(word)
